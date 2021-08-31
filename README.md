@@ -6,7 +6,18 @@ I made my own custom dialog for a app and i wanted share with you. I hope you wi
 ![Code block](https://s9.gifyu.com/images/carbon-2.png)
 ## Examples
 
+```Dart
+    AlertScreen(
+                  title: 'Its done!',
+                  description: 'Successfully completed.',
+                  buttonText: 'Great!',
+                  dialogType: 'done',
+             );
+```
+I prepared 3 types of AlertScreen. These : `warning` , `info` , `done`. 
+
 AlertScreen is ' Dialog Widget ' so you shoud use inside  `showDialog` like below;
+
 
 ```Dart
     onPressed: () {
@@ -15,22 +26,17 @@ AlertScreen is ' Dialog Widget ' so you shoud use inside  `showDialog` like belo
                           builder: (context) {
                             return const AlertScreen();
                           });
-                    },
+                   },
 ```
-I prepared 3 types of AlertScreen. These : `warning` , `info` , `done`. 
 
 You can choice these 3 type AlertScreen inside of ' dialogType '. 
 
-
-
-
-  
 ## Screen Shot
 
 
 
 
-![Screeb Shot](https://s9.gifyu.com/images/custum_dialog_example373c6e2541b5f324.gif)
+![Screeb Shot](https://s9.gifyu.com/images/ezgif.com-gif-makerefecfc76b3920b81.gif)
   
 
 
